@@ -72,12 +72,7 @@
 
         default_layer {
             bindings = <
-&kp ESC  &kp N1  &kp N2  &kp N3  &kp N4  &kp N5  &kp N6  &kp N7  &kp N8  &kp N9  &kp N0  &kp MINUS
-&kp TAB  &kp Q  &kp W  &kp E  &kp R  &kp T  &kp Y  &kp U  &kp I  &kp O  &kp P  &kp JP_AT
-&kp CAPSLOCK  &kp A  &kp S  &kp D  &kp F  &kp G  &kp H  &kp J  &kp K  &kp L  &kp SEMICOLON  &kp JP_COLON
-&kp LSHFT  &kp Z  &kp X  &kp C  &kp V  &kp B  &kp JP_LBRACKET  &kp JP_RBRACKET  &kp N  &kp M  &kp COMMA  &kp DOT  &kp SLASH  &kp JP_UNDERSCORE
-&kp LCTRL  &kp LEFT_ALT  &kp SPACE  &lt 1 LEFT_WIN  &lt 1 SPACE  &kp SPACE  &kp JP_CARET  &kp JP_YEN
-&tog 2  &kp ENTER  &lt 2 LANG_ZENKAKUHANKAKU  &lt 2 ENTER  &kp ENTER  &tog 2  &mo 2  &mo 1  &mo 1  &mo 2  &mo 3  &mo 1  &mo 2  &mo 3  &mo 1  &mo 2  &mo 3
+&kp ESC  &kp N1  &kp N2  &kp N3  &kp N4  &kp N5  &kp N6  &kp N7  &kp N8  &kp N9  &kp N0  &kp MINUS  &kp TAB  &kp Q  &kp W  &kp E  &kp R  &kp T  &kp Y  &kp U  &kp I  &kp O  &kp P  &kp JP_AT  &kp CAPSLOCK  &kp A  &kp S  &kp D  &kp F  &kp G  &kp H  &kp J  &kp K  &kp L  &kp SEMICOLON  &kp JP_COLON  &kp LSHFT  &kp Z  &kp X  &kp C  &kp V  &kp B  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp N  &kp M  &kp COMMA  &kp DOT  &kp SLASH  &kp JP_UNDERSCORE  &kp LCTRL  &kp LEFT_ALT  &kp SPACE  &lt 1 LEFT_WIN  &lt 1 SPACE  &kp SPACE  &kp JP_CARET  &kp JP_YEN  &tog 2  &kp ENTER  &lt 3 LANG_ZENKAKUHANKAKU  &lt 2 ENTER  &kp ENTER  &tog 2  &mo 2  &mo 1  &mo 1  &mo 2  &mo 3  &mo 1  &mo 2  &mo 3  &mo 1  &mo 2  &mo 3
             >;
 
             sensor-bindings = <
@@ -90,6 +85,10 @@
             bindings = <
 &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4  &bt BT_SEL 5  &bt BT_CLR_ALL  &trans  &kp PRINTSCREEN  &trans  &trans  &studio_unlock  &trans  &kp MINUS  &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp PLUS  &trans  &kp PG_UP  &kp UP_ARROW  &kp PG_DN  &trans  &kp F12  &trans  &kp SLASH  &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp ASTERISK  &kp HOME  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp END  &kp BACKSPACE  &trans  &mt LEFT_SHIFT KP_NUMBER_0  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp PERIOD  &kp EQUAL  &mkp MB4  &mkp MB5  &mkp MB1  &mkp MB2  &mkp MB3  &trans  &kp ENTER  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
             >;
+
+            sensor-bindings =
+                <&scroll_left_right SCRL_LEFT SCRL_RIGHT>,
+                <&scroll_up_down SCRL_UP SCRL_DOWN>;
         };
 
         layer_2 {
