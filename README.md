@@ -8,6 +8,8 @@ mtk64ebt用zmkファームウェアです。
 
 https://zmk.studio/download　からアプリ版をダウンロードすれば、無線接続のままキーマップ変更が可能です。
 
+キーマップエディタ： https://nickcoutsos.github.io/keymap-editor/
+
 必要に応じて、[studio_unlockキー](https://zmk.dev/docs/features/studio#keymap-changes)（レイヤー１右手右上のキー）でUNLOCKして書き換えてください。
 
 ### キーボードの接続
