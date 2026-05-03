@@ -68,7 +68,8 @@
     };
 
     trackball_listener: trackball_listener {
-        compatible = "zmk,input-listener";
+        //compatible = "zmk,input-listener";
+        compatible = "zmk";
         status = "disabled";
         device = <&trackball>;
 
@@ -84,7 +85,7 @@
         process-next;
         };
 
-        //input-processors = <&zip_temp_layer 6 5000>;
+        input-processors = <&zip_temp_layer 6 5000>;
 
     };
 
