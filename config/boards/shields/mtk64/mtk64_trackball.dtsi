@@ -84,14 +84,14 @@
         process-next;
         };
 
-        input-processors = <&zip_temp_layer 6 5000>;
+        input-processors = <&zip_temp_layer 6 1500>;
 
     };
 
     zip_temp_layer: zip_temp_layer {
         compatible = "zmk,input-processor-temp-layer";
         #input-processor-cells = <2>;
-        require-prior-idle-ms = <500>;
+        require-prior-idle-ms = <700>;
         excluded-positions = <
             43  // ] 
             44  // N
