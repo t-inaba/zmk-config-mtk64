@@ -99,6 +99,12 @@
             45  // M
             46  // <
             47  // >
+            50 // Left Shift
+            51 // Left Ctrl
+            53 // Left Win
+            57 // Left Alt
+            36 // Right Shift
+            4  // Right Ctrl
         >; 
     };
 
