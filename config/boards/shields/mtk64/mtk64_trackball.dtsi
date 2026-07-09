@@ -94,8 +94,6 @@
         #input-processor-cells = <2>;
         require-prior-idle-ms = <700>;
         excluded-positions = <
-            43  // ] 
-            44  // N
             45  // M
             46  // <
             47  // >
@@ -106,5 +104,10 @@
             36 // Right Shift
         >; 
     };
+    /*
+            43  // ] 
+            44  // N
+            4   // Left Win
+    */
 
 };
