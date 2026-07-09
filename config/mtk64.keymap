@@ -70,9 +70,9 @@
     combos {
         compatible = "zmk,combos";
 
-        test {
+        nonecombo {
             bindings = <&none>;
-            key-positions = <50 36 51 53 57 49>;
+            key-positions = <50 36 57 49 53>;
         };
     };
 
